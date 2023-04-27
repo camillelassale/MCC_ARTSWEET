@@ -1,5 +1,4 @@
 load("./DATA/mcc_aspartame_27042023.RData")
-mcc2 <- select(mcc2, -gleason7)
 
 # low grade prostate cancer
 low<-subset(men,men$gleason7==0|men$gleason7==1)
